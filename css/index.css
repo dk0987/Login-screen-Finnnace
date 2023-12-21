@@ -1,0 +1,80 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: red;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.big-box {
+    display: flex;
+    flex-direction: row;
+    height: 100vmin;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.imagebox{
+flex: 7;
+background-color: aqua;
+}
+
+.imagebox img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+
+.formbox{
+    flex: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 12rem;
+}
+.staffloginbox h3{
+    color: blue;
+    font-size:2.5rem;
+    text-transform: uppercase;
+
+}
+.input-box { 
+    width: 70%;
+    height:2rem ;
+
+}
+
+.input-box input { 
+    width: 100%;
+height: 100%;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+}
+
+.loginbittonbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ justify-content: space-between;
+ height: 4rem;
+}
+.loginbutton{
+    background-color: blue;
+     border-radius:3rem;
+     width: 8rem;
+     height: 10rem;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     color: white;
+     text-transform: uppercase;
+}
+.forgotbutton{
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+    color: blue;
+}
